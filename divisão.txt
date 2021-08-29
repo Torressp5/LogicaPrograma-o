@@ -1,0 +1,22 @@
+Algoritmo "semnome"
+// 
+//  
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Nome do(a) aluno(a)
+// Data atual  : 25/08/2021
+Var
+// Seção de Declarações das variáveis 
+      numeroA:inteiro
+      numeroB:inteiro
+      resultado:real
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+         ESCREVAL ("Digite um numero:")
+         leia (numeroA)
+         ESCREVA ("Digite o segundo numero:")
+         leia (numeroB)
+         resultado<-numeroA/numeroB
+         ESCREVAL("O valor da divisão é:", resultado)
+
+Fimalgoritmo

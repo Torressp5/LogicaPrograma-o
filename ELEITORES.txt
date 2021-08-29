@@ -1,0 +1,40 @@
+Algoritmo "Eleitores"
+//
+// gustavo torres 
+// Descrição   :  Logica de programação e JS
+// Autor(a)    : gustavo torres
+// Data atual  : 27/08/2021
+Var
+// Seção de Declarações das variáveis 
+    QuantidadeTotal:inteiro
+    VotosBrancos:inteiro
+    VotosNulos:inteiro
+    Validos:inteiro
+    PorVotosBrancos:real
+    PorVotosNulos:real
+    PorValidos:real
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+        ESCREVAL ("Digite a quantidade total de eleitores de um municipio")
+        leia (QuantidadeTotal)
+        
+         ESCREVAL ("Digite a quantidade total de votos brancos de um municipio")
+        leia (VotosBrancos)
+        
+         ESCREVAL ("Digite a quantidade total de votos nulos de um municipio")
+        leia (VotosNulos)
+        
+         ESCREVAL ("Digite a quantidade total de validos de um municipio")
+        leia (Validos)
+        
+        PorVotosBrancos<-(VotosBrancos*100)/QuantidadeTotal
+        PorVotosNulos<-(VotosNulos*100)/QuantidadeTotal
+         PorValidos<-(Validos*100)/QuantidadeTotal
+         
+         ESCREVAL ("A porcentagem de votos brancos corresponde a :",PorVotosBrancos, "%")
+          ESCREVAL ("A porcentagem de votos nulos corresponde a :",PorVotosNulos, "%")
+           ESCREVAL ("A porcentagem de votos validos corresponde a :",PorValidos, "%")
+        
+
+Fimalgoritmo

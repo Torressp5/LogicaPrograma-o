@@ -1,0 +1,23 @@
+Algoritmo "semnome"
+// 
+//  
+// Descrição   : Logica de programação e JS
+// Autor(a)    : Gustavo torres
+// Data atual  : 25/08/2021
+Var
+// Seção de Declarações das variáveis 
+
+          numero: inteiro
+          numero1:inteiro
+          SOMA: inteiro
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+      ESCREVAL ("Bom dia proanix")
+      ESCREVA ("Digite um numero:")
+      LEIA (numero)
+      ESCREVAL ("Digite um numero:")
+      LEIA (numero1)
+      SOMA<-numero+numero1
+      ESCREVAL ("O valor da soma é :", SOMA)
+
+Fimalgoritmo

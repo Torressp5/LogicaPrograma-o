@@ -1,0 +1,30 @@
+Algoritmo "IDADE"
+// Logica de programação e JS
+// gustavo torres 
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Nome do(a) aluno(a)
+// Data atual  : 25/08/2021
+Var
+// Seção de Declarações das variáveis 
+     a,m,D:inteiro
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+
+             ESCREVAL("Escreva sua idade (somente em anos) ")
+             LEIA (a)
+
+
+
+             ESCREVAL("Escreva sua idade (somente em meses) ")
+             LEIA (m)
+
+
+             ESCREVAL("Escreva (sua idade somente em dias) ")
+             LEIA (d)
+
+
+              D<-(D+(a*365)+(m*30));
+
+ ESCREVAL("Sua idade em dias é: ",D)
+Fimalgoritmo

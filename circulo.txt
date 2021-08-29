@@ -1,0 +1,22 @@
+Algoritmo "IDADE"
+// Logica de programação e JS
+// gustavo torres 
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Nome do(a) aluno(a)
+// Data atual  : 25/08/2021
+Var
+// Seção de Declarações das variáveis 
+    raio,area:real
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+
+             ESCREVAL("Digite o valor do circulo ")
+             LEIA (raio)
+             area<-raio*raio*pi
+             ESCREVAL ("a area do circulo corresponde a :", area:3:3 , "cm")
+
+
+
+
+Fimalgoritmo

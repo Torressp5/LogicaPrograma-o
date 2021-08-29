@@ -1,0 +1,35 @@
+Algoritmo "carros"
+// Logica de programação e JS
+// gustavo torres 
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Nome do(a) aluno(a)
+// Data atual  : 27/08/2021
+Var
+// Seção de Declarações das variáveis 
+   SalarioFixo:real
+   ComissaoCarro:real
+   ValorTotal:real
+   SalarioFinal:real
+   QuantCarro:inteiro
+   ValorTotalCarro:real
+   
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+       ESCREVAL ("Digite o salario:")
+       leia(SalarioFixo)
+       
+       ESCREVAL ("Digite a comissão por carro vendido:")
+       leia(ComissaoCarro)
+       
+       ESCREVAL ("Digite a quantidade de carros vendidos:")
+       leia(QuantCarro)
+       
+       ESCREVAL ("Digite a soma total dos valores dos carros:")
+       leia(ValorTotalCarro)
+       
+       SalarioFinal<-SalarioFixo + ComissaoCarro * QuantCarro + 5*ValorTotalCarro/100
+       
+       ESCREVAL ("O salário final do vendedor equivale a:", SalarioFinal)
+
+Fimalgoritmo

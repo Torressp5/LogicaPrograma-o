@@ -1,0 +1,19 @@
+Algoritmo "semnome"
+// Logica de programação e JS
+// gustavo torres 
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Nome do(a) aluno(a)
+// Data atual  : 25/08/2021
+Var
+// Seção de Declarações das variáveis 
+numero:real
+resposta:real
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+             ESCREVAL ("Digite um numero")
+             leia (numero)
+             resposta<-(numero+1)
+             ESCREVAL ("O sucessor do numero é:", resposta)
+
+Fimalgoritmo
